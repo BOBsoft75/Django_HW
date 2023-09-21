@@ -1,0 +1,35 @@
+{% extends 'hw_app/base1.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+
+    <h1>Список заказов</h1>
+    <form method="GET">
+        <button type="submit" name="all_orders">All Orders</button>
+        <button type="submit" name="last_7_days" value="7">Last 7 Days</button>
+        <button type="submit" name="last_30_days" value="30">Last 30 Days</button>
+        <button type="submit" name="last_365_days" value="365">Last 365 Days</button>
+    </form>
+    <table class="table">
+        <tr class="table-dark">
+            <th>Клиент</th>
+            <th>Товар</th>
+            <th>Стоимость</th>
+            <th>Дата регистрации</th>
+        </tr>
+        {% for order in orders %}
+        <tr>
+            <td>{{ order.client }}</td>
+            <td>
+                {% for product_list in order.product.all %}
+                    {{ product_list }}<br>
+                {% endfor %}
+            </td>
+            <td>{{ order.common_price }}</td>
+            <td>{{ order.date }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

@@ -1,0 +1,1008 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14
+"GET / HTTP/1.1" 200 14
+J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+J:\GeekBrains\Django2\project1\project1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 14
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 14
+J:\GeekBrains\Django2\project1\project1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+J:\GeekBrains\Django2\project1\project1\settings.py changed, reloading.
+INFO 2023-09-21 01:29:11,366 autoreload 15048 12336 Watching for file changes with StatReloader
+INFO 2023-09-21 01:29:25,281 basehttp 15048 15072 "GET /about/ HTTP/1.1" 200 14
+INFO 2023-09-21 01:29:52,019 views 15048 15072 Index page accessed
+INFO 2023-09-21 01:29:52,020 basehttp 15048 15072 "GET / HTTP/1.1" 200 14
+INFO 2023-09-21 01:31:16,744 autoreload 15048 12336 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 01:31:17,192 autoreload 16212 2500 Watching for file changes with StatReloader
+INFO 2023-09-21 01:35:57,914 autoreload 16212 2500 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 01:35:58,334 autoreload 9944 8332 Watching for file changes with StatReloader
+INFO 2023-09-21 01:36:08,076 views 9944 16996 Index page accessed
+INFO 2023-09-21 01:36:08,077 basehttp 9944 16996 "GET / HTTP/1.1" 200 14
+ERROR 2023-09-21 01:36:15,845 views 9944 16996 Error in about page: division by zero
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-09-21 01:36:15,846 basehttp 9944 16996 "GET /about/ HTTP/1.1" 200 26
+ERROR 2023-09-21 01:36:38,950 views 9944 16996 Error in about page: division by zero
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 17, in about
+    # result = 1 / 0
+             ^^^^^
+ZeroDivisionError: division by zero
+INFO 2023-09-21 01:36:38,957 basehttp 9944 16996 "GET /about/ HTTP/1.1" 200 26
+INFO 2023-09-21 01:36:39,369 autoreload 9944 8332 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 01:36:39,790 autoreload 13284 8444 Watching for file changes with StatReloader
+INFO 2023-09-21 01:36:56,266 autoreload 13284 8444 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 01:36:56,683 autoreload 10744 4828 Watching for file changes with StatReloader
+ERROR 2023-09-21 01:37:17,928 views 10744 16772 Error in about page: division by zero
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-09-21 01:37:17,929 basehttp 10744 16772 "GET /about/ HTTP/1.1" 200 26
+ERROR 2023-09-21 01:38:53,310 views 10744 13544 Error in about page: division by zero
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-09-21 01:38:53,312 basehttp 10744 13544 "GET /about/ HTTP/1.1" 200 26
+INFO 2023-09-21 08:59:32,447 autoreload 9012 3648 Watching for file changes with StatReloader
+INFO 2023-09-21 08:59:36,795 views 9012 13656 Index page accessed
+INFO 2023-09-21 08:59:36,796 basehttp 9012 13656 "GET / HTTP/1.1" 200 14
+WARNING 2023-09-21 08:59:36,998 log 9012 13656 Not Found: /favicon.ico
+WARNING 2023-09-21 08:59:36,999 basehttp 9012 13656 "GET /favicon.ico HTTP/1.1" 404 2440
+INFO 2023-09-21 08:59:51,545 basehttp 9012 13656 "GET /about HTTP/1.1" 301 0
+ERROR 2023-09-21 08:59:51,548 views 9012 828 Error in about page: division by zero
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-09-21 08:59:51,550 basehttp 9012 828 "GET /about/ HTTP/1.1" 200 26
+INFO 2023-09-21 09:00:58,228 autoreload 9012 3648 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 09:00:58,645 autoreload 2868 15304 Watching for file changes with StatReloader
+INFO 2023-09-21 09:02:27,247 views 2868 3880 About page accessed
+INFO 2023-09-21 09:02:27,248 basehttp 2868 3880 "GET /about/ HTTP/1.1" 200 14
+INFO 2023-09-21 09:04:24,258 autoreload 2868 15304 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 09:04:24,678 autoreload 12524 3624 Watching for file changes with StatReloader
+INFO 2023-09-21 09:04:24,907 views 12524 13660 About page accessed
+INFO 2023-09-21 09:04:24,908 basehttp 12524 13660 "GET /about/ HTTP/1.1" 200 14
+INFO 2023-09-21 09:04:26,279 views 12524 13660 About page accessed
+INFO 2023-09-21 09:04:26,280 basehttp 12524 13660 "GET /about/ HTTP/1.1" 200 14
+INFO 2023-09-21 09:04:29,846 views 12524 13660 Index page accessed
+INFO 2023-09-21 09:04:29,847 basehttp 12524 13660 "GET / HTTP/1.1" 200 14
+INFO 2023-09-21 09:04:46,297 autoreload 12524 3624 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 09:04:46,749 autoreload 17420 11720 Watching for file changes with StatReloader
+INFO 2023-09-21 09:04:48,752 views 17420 7756 Index page accessed
+INFO 2023-09-21 09:04:48,753 basehttp 17420 7756 "GET / HTTP/1.1" 200 47
+INFO 2023-09-21 09:09:39,863 autoreload 10544 17928 Watching for file changes with StatReloader
+INFO 2023-09-21 10:56:01,580 autoreload 17752 12264 Watching for file changes with StatReloader
+INFO 2023-09-21 10:56:04,106 basehttp 17752 6960 "GET / HTTP/1.1" 200 221
+ERROR 2023-09-21 10:56:19,085 log 17752 6960 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 36, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 10:56:19,093 basehttp 17752 6960 "GET /products/ HTTP/1.1" 500 142722
+ERROR 2023-09-21 10:59:26,411 log 17752 6960 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 36, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 10:59:26,419 basehttp 17752 6960 "GET /products/ HTTP/1.1" 500 142859
+INFO 2023-09-21 10:59:34,593 basehttp 17752 6960 "GET / HTTP/1.1" 200 221
+INFO 2023-09-21 10:59:36,331 basehttp 17752 6960 "GET / HTTP/1.1" 200 221
+WARNING 2023-09-21 10:59:45,770 log 17752 6960 Not Found: /about/
+WARNING 2023-09-21 10:59:45,771 basehttp 17752 6960 "GET /about/ HTTP/1.1" 404 2753
+ERROR 2023-09-21 11:00:05,797 log 17752 6960 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 36, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 11:00:05,803 basehttp 17752 6960 "GET /products/ HTTP/1.1" 500 142722
+WARNING 2023-09-21 11:02:12,926 log 17752 6960 Not Found: /hw_app/products/
+WARNING 2023-09-21 11:02:12,927 basehttp 17752 6960 "GET /hw_app/products/ HTTP/1.1" 404 2783
+ERROR 2023-09-21 11:02:57,224 log 17752 6960 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 36, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 11:02:57,231 basehttp 17752 6960 "GET /products/ HTTP/1.1" 500 142722
+INFO 2023-09-21 11:04:13,386 basehttp 17752 6960 "GET / HTTP/1.1" 200 221
+INFO 2023-09-21 11:05:19,943 basehttp 17752 6960 "GET / HTTP/1.1" 200 222
+INFO 2023-09-21 11:09:38,141 basehttp 17752 6960 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:09:40,418 basehttp 17752 6960 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:09:41,536 basehttp 17752 6960 "GET / HTTP/1.1" 200 898
+ERROR 2023-09-21 11:10:46,901 log 17752 6960 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 36, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 11:10:46,907 basehttp 17752 6960 "GET /products/ HTTP/1.1" 500 142722
+ERROR 2023-09-21 11:12:22,926 log 17752 6960 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 73, in upload_image
+    return render(request, 'hw_app/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 11:12:22,932 basehttp 17752 6960 "GET /upload/ HTTP/1.1" 500 131431
+ERROR 2023-09-21 11:26:49,026 log 17752 9808 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 73, in upload_image
+    return render(request, 'hw_app/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 11:26:49,032 basehttp 17752 9808 "GET /upload/ HTTP/1.1" 500 131568
+ERROR 2023-09-21 11:26:51,857 log 17752 9808 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 36, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 11:26:51,864 basehttp 17752 9808 "GET /products/ HTTP/1.1" 500 142859
+INFO 2023-09-21 11:27:00,715 basehttp 17752 9808 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:27:04,185 basehttp 17752 9808 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:27:12,209 basehttp 17752 9808 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:27:40,523 basehttp 17752 9808 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:27:42,288 basehttp 17752 9808 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:27:45,338 basehttp 17752 9808 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:29:30,652 basehttp 17752 9808 "GET / HTTP/1.1" 200 911
+INFO 2023-09-21 11:29:38,277 basehttp 17752 9808 "GET / HTTP/1.1" 200 911
+INFO 2023-09-21 11:29:42,632 basehttp 17752 9808 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:40:51,248 basehttp 17752 14872 "GET / HTTP/1.1" 200 898
+WARNING 2023-09-21 11:40:51,272 log 17752 14872 Not Found: /favicon.ico
+WARNING 2023-09-21 11:40:51,272 basehttp 17752 14872 "GET /favicon.ico HTTP/1.1" 404 2768
+INFO 2023-09-21 11:40:55,163 basehttp 17752 14872 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:40:56,753 basehttp 17752 14872 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:41:10,340 basehttp 17752 14872 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:41:11,570 basehttp 17752 14872 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:41:13,104 basehttp 17752 14872 "GET / HTTP/1.1" 200 898
+ERROR 2023-09-21 11:42:20,597 log 17752 14872 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 36, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 11:42:20,608 basehttp 17752 14872 "GET /products/ HTTP/1.1" 500 142722
+INFO 2023-09-21 11:44:14,796 autoreload 17968 17976 Watching for file changes with StatReloader
+INFO 2023-09-21 11:44:23,265 basehttp 17968 11088 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 11:44:35,872 basehttp 17968 11088 "GET / HTTP/1.1" 200 898
+ERROR 2023-09-21 11:44:39,752 log 17968 11088 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 36, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-21 11:44:39,759 basehttp 17968 11088 "GET /products/ HTTP/1.1" 500 142722
+WARNING 2023-09-21 11:46:13,790 log 17968 11088 Not Found: /about/
+WARNING 2023-09-21 11:46:13,791 basehttp 17968 11088 "GET /about/ HTTP/1.1" 404 2753
+INFO 2023-09-21 13:24:01,420 autoreload 4580 8428 Watching for file changes with StatReloader
+INFO 2023-09-21 13:24:05,525 basehttp 4580 5604 "GET / HTTP/1.1" 200 898
+INFO 2023-09-21 13:24:13,364 basehttp 4580 5604 "GET /products/ HTTP/1.1" 200 29701
+INFO 2023-09-21 13:24:57,762 basehttp 4580 5604 "GET /change_product/1/? HTTP/1.1" 200 2705
+INFO 2023-09-21 13:25:19,142 basehttp 4580 5604 "POST /change_product/1/? HTTP/1.1" 302 0
+INFO 2023-09-21 13:25:19,151 basehttp 4580 5604 "GET /products/ HTTP/1.1" 200 29716
+INFO 2023-09-21 13:25:21,716 basehttp 4580 5604 "GET /products/ HTTP/1.1" 200 29716
+INFO 2023-09-21 13:25:27,704 basehttp 4580 5604 "GET /change_product/2/? HTTP/1.1" 200 2695
+INFO 2023-09-21 13:25:38,452 basehttp 4580 5604 "POST /change_product/2/? HTTP/1.1" 302 0
+INFO 2023-09-21 13:25:38,459 basehttp 4580 5604 "GET /products/ HTTP/1.1" 200 29731
+INFO 2023-09-21 13:25:40,096 basehttp 4580 5604 "GET /change_product/3/? HTTP/1.1" 200 2624
+INFO 2023-09-21 13:25:52,019 basehttp 4580 5604 "POST /change_product/3/? HTTP/1.1" 302 0
+INFO 2023-09-21 13:25:52,026 basehttp 4580 5604 "GET /products/ HTTP/1.1" 200 29747
+INFO 2023-09-21 13:27:20,975 basehttp 4580 5604 "GET / HTTP/1.1" 200 898
+WARNING 2023-09-21 13:28:34,384 log 4580 5604 Not Found: /products/3
+WARNING 2023-09-21 13:28:34,385 basehttp 4580 5604 "GET /products/3 HTTP/1.1" 404 2765
+INFO 2023-09-21 13:28:40,861 basehttp 4580 5604 "GET /products/ HTTP/1.1" 200 29747
+WARNING 2023-09-21 13:36:02,966 log 4580 14172 Not Found: /orders/
+WARNING 2023-09-21 13:36:02,967 basehttp 4580 14172 "GET /orders/ HTTP/1.1" 404 2756
+WARNING 2023-09-21 13:36:04,031 log 4580 14172 Not Found: /orders/
+WARNING 2023-09-21 13:36:04,031 basehttp 4580 14172 "GET /orders/ HTTP/1.1" 404 2756
+INFO 2023-09-21 13:38:26,194 autoreload 4580 8428 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 13:38:26,632 autoreload 18292 6752 Watching for file changes with StatReloader
+INFO 2023-09-21 13:38:44,205 autoreload 18292 6752 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 13:38:44,638 autoreload 17156 11872 Watching for file changes with StatReloader
+INFO 2023-09-21 13:40:42,837 autoreload 17156 11872 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 13:40:43,257 autoreload 12416 17896 Watching for file changes with StatReloader
+WARNING 2023-09-21 13:40:47,244 log 12416 4916 Not Found: /orders/
+WARNING 2023-09-21 13:40:47,245 basehttp 12416 4916 "GET /orders/ HTTP/1.1" 404 2756
+WARNING 2023-09-21 13:40:51,471 log 12416 4916 Not Found: /orders/
+WARNING 2023-09-21 13:40:51,471 basehttp 12416 4916 "GET /orders/ HTTP/1.1" 404 2756
+INFO 2023-09-21 13:41:33,470 autoreload 12416 17896 J:\GeekBrains\Django2\project1\hw_app\urls.py changed, reloading.
+INFO 2023-09-21 13:41:33,895 autoreload 18200 4816 Watching for file changes with StatReloader
+INFO 2023-09-21 13:42:05,693 autoreload 18200 4816 J:\GeekBrains\Django2\project1\hw_app\urls.py changed, reloading.
+INFO 2023-09-21 13:42:06,141 autoreload 3316 15976 Watching for file changes with StatReloader
+INFO 2023-09-21 13:43:43,921 autoreload 3316 15976 J:\GeekBrains\Django2\project1\hw_app\urls.py changed, reloading.
+INFO 2023-09-21 13:43:44,348 autoreload 6932 18212 Watching for file changes with StatReloader
+INFO 2023-09-21 13:44:17,081 autoreload 6932 18212 J:\GeekBrains\Django2\project1\hw_app\urls.py changed, reloading.
+INFO 2023-09-21 13:44:17,532 autoreload 13040 12356 Watching for file changes with StatReloader
+INFO 2023-09-21 13:44:19,787 basehttp 13040 16696 "GET /orders/ HTTP/1.1" 200 85050
+INFO 2023-09-21 13:44:30,373 basehttp 13040 16696 "GET /orders/?all_orders= HTTP/1.1" 200 85050
+ERROR 2023-09-21 13:44:31,077 log 13040 16696 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 45, in order_view
+    orders = models.Order.objects.filter(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date_order' into field. Choices are: client, client_id, common_price, date, id, products
+ERROR 2023-09-21 13:44:31,083 basehttp 13040 16696 "GET /orders/?last_7_days=7 HTTP/1.1" 500 116104
+ERROR 2023-09-21 13:44:39,788 log 13040 16696 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 45, in order_view
+    orders = models.Order.objects.filter(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date_order' into field. Choices are: client, client_id, common_price, date, id, products
+ERROR 2023-09-21 13:44:39,793 basehttp 13040 16696 "GET /orders/?last_7_days=7 HTTP/1.1" 500 116250
+ERROR 2023-09-21 13:44:43,017 log 13040 16696 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 48, in order_view
+    orders = models.Order.objects.filter(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date_order' into field. Choices are: client, client_id, common_price, date, id, products
+ERROR 2023-09-21 13:44:43,024 basehttp 13040 16696 "GET /orders/?last_30_days=30 HTTP/1.1" 500 116231
+INFO 2023-09-21 13:45:43,476 autoreload 13040 12356 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 13:45:43,928 autoreload 8752 1240 Watching for file changes with StatReloader
+INFO 2023-09-21 13:45:47,246 basehttp 8752 17872 "GET /orders/?all_orders= HTTP/1.1" 200 85050
+INFO 2023-09-21 13:45:48,550 basehttp 8752 17872 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 13:45:50,717 basehttp 8752 17872 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2841
+INFO 2023-09-21 13:45:52,224 basehttp 8752 17872 "GET /orders/?last_365_days=365 HTTP/1.1" 200 43218
+INFO 2023-09-21 13:45:55,027 basehttp 8752 17872 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2841
+INFO 2023-09-21 13:45:56,250 basehttp 8752 17872 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 13:45:58,133 basehttp 8752 17872 "GET /orders/?all_orders= HTTP/1.1" 200 85050
+INFO 2023-09-21 13:45:59,726 basehttp 8752 17872 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 13:46:00,438 basehttp 8752 17872 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2841
+INFO 2023-09-21 13:46:01,523 basehttp 8752 17872 "GET /orders/?last_365_days=365 HTTP/1.1" 200 43218
+INFO 2023-09-21 13:46:07,717 basehttp 8752 17872 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2841
+INFO 2023-09-21 13:46:08,673 basehttp 8752 17872 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 13:46:10,054 basehttp 8752 17872 "GET /orders/?all_orders= HTTP/1.1" 200 85050
+INFO 2023-09-21 13:46:14,090 basehttp 8752 17872 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 13:46:15,088 basehttp 8752 17872 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2841
+INFO 2023-09-21 13:46:15,963 basehttp 8752 17872 "GET /orders/?last_365_days=365 HTTP/1.1" 200 43218
+INFO 2023-09-21 13:46:17,411 basehttp 8752 17872 "GET /orders/?all_orders= HTTP/1.1" 200 85050
+INFO 2023-09-21 13:46:18,112 basehttp 8752 17872 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 13:46:18,936 basehttp 8752 17872 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2841
+INFO 2023-09-21 13:47:23,345 autoreload 8752 1240 J:\GeekBrains\Django2\project1\hw_app\views.py changed, reloading.
+INFO 2023-09-21 13:47:23,771 autoreload 6120 9664 Watching for file changes with StatReloader
+INFO 2023-09-21 13:49:16,302 basehttp 6120 14956 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 13:49:27,397 basehttp 6120 14956 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 13:49:28,836 basehttp 6120 14956 "GET /orders/?last_365_days=365 HTTP/1.1" 200 48368
+INFO 2023-09-21 13:49:31,129 basehttp 6120 14956 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 13:49:32,358 basehttp 6120 14956 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 13:49:33,558 basehttp 6120 14956 "GET /orders/?all_orders= HTTP/1.1" 200 95293
+INFO 2023-09-21 13:49:34,942 basehttp 6120 14956 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 13:49:35,884 basehttp 6120 14956 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 13:54:08,856 autoreload 6120 9664 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-21 13:54:09,288 autoreload 18336 13436 Watching for file changes with StatReloader
+INFO 2023-09-21 13:54:45,094 autoreload 18336 13436 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-21 13:54:45,527 autoreload 14948 14188 Watching for file changes with StatReloader
+ERROR 2023-09-21 13:59:34,272 log 14948 18080 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\views.py", line 54, in order_view
+    return render(request, 'hw_app/orders.html', {'orders': orders, 'title': 'Список заказов'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 37: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-09-21 13:59:34,283 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 500 186758
+INFO 2023-09-21 14:00:01,790 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:00:14,417 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:00:15,981 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:00:16,852 basehttp 14948 18080 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 14:00:17,691 basehttp 14948 18080 "GET /orders/?all_orders= HTTP/1.1" 200 95293
+INFO 2023-09-21 14:00:18,724 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 48368
+INFO 2023-09-21 14:00:19,296 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:00:19,871 basehttp 14948 18080 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 14:00:21,142 basehttp 14948 18080 "GET /orders/?all_orders= HTTP/1.1" 200 95293
+INFO 2023-09-21 14:01:13,077 basehttp 14948 18080 "GET /orders/?all_orders= HTTP/1.1" 200 81170
+INFO 2023-09-21 14:01:14,914 basehttp 14948 18080 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 14:01:16,061 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2782
+INFO 2023-09-21 14:01:17,198 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 41321
+INFO 2023-09-21 14:01:17,955 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2782
+INFO 2023-09-21 14:02:02,029 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2934
+INFO 2023-09-21 14:02:16,968 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2934
+INFO 2023-09-21 14:02:17,791 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 45938
+INFO 2023-09-21 14:02:44,093 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 45938
+INFO 2023-09-21 14:02:44,922 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2934
+INFO 2023-09-21 14:02:46,211 basehttp 14948 18080 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 14:02:47,228 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2934
+INFO 2023-09-21 14:02:49,406 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 45938
+INFO 2023-09-21 14:02:51,440 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2934
+INFO 2023-09-21 14:02:53,481 basehttp 14948 18080 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 14:02:54,332 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2934
+INFO 2023-09-21 14:02:55,383 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 45938
+INFO 2023-09-21 14:02:57,487 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2934
+INFO 2023-09-21 14:02:59,340 basehttp 14948 18080 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 14:03:00,554 basehttp 14948 18080 "GET /orders/?all_orders= HTTP/1.1" 200 90423
+INFO 2023-09-21 14:03:01,876 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2934
+INFO 2023-09-21 14:04:20,195 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:04:30,052 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:04:31,699 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:04:32,335 basehttp 14948 18080 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 14:04:32,950 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:04:33,525 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 48368
+INFO 2023-09-21 14:04:34,439 basehttp 14948 18080 "GET /orders/?last_7_days=7 HTTP/1.1" 200 1466
+INFO 2023-09-21 14:04:35,884 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:05:28,784 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:05:33,714 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:05:35,081 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:05:36,045 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 48368
+INFO 2023-09-21 14:05:36,773 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:05:55,631 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:05:56,834 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
+INFO 2023-09-21 14:05:57,567 basehttp 14948 18080 "GET /orders/?last_365_days=365 HTTP/1.1" 200 48368
+INFO 2023-09-21 14:05:58,031 basehttp 14948 18080 "GET /orders/?last_30_days=30 HTTP/1.1" 200 3014
