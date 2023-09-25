@@ -1,0 +1,22 @@
+{% extends 'hw_app/base1.html' %}
+
+{% block title %}Клиенты{% endblock %}
+
+{% block content %}
+<h2 class="text-center">Список всех клиентов</h2>
+{% for client in clients %}
+<table>
+    <tr><th>ФИО:</th><td>{{ client.name }}</td></tr>
+    <tr><th>email:</th><td>{{ client.email }}</td></tr>
+    <tr><th>Телефон:</th><td>{{ client.phone }}</td></tr>
+    <tr><th>Адрес:</th><td>{{ client.address }}</td></tr>
+    <tr><th>Дата регистрации:</th><td>{{ client.reg_date }}</td></tr>
+    <tr><th></th><td>
+        <form action="{% url 'change_client' client.id %}" method="get">
+            <input type="submit" value="Изменить">
+        </form>
+    </td></tr>
+</table>
+<br><hr><br>
+{% endfor %}
+{% endblock %}

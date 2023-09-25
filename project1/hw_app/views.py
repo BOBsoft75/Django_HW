@@ -1,5 +1,6 @@
 from django.http import HttpResponse
-from django.shortcuts import render, redirect
+# get_object_or_404 работает аналогично get,т.е.делает selectз апрос к базе данных.Но если запрос не вернёт строку из таблицы БД,представление отрисует страницу с ошибкой 404.
+from django.shortcuts import render, redirect, get_object_or_404
 from django.core.files.storage import FileSystemStorage
 from hw_app.forms import ImageForm
 from django.utils import timezone
@@ -54,6 +55,11 @@ def order_view(request):
     return render(request, 'hw_app/orders.html', {'orders': orders, 'title': 'Список заказов'})
 
 
+def clients_view(request):
+    clients = models.Client.objects.all()
+    return render(request, 'hw_app/clients.html', {'clients': clients, 'title': 'Список клиентов'})
+
+
 def change_product(request, product_id):
     product = models.Product.objects.filter(pk=product_id).first()
     form = forms.ProductForm(request.POST, request.FILES)
@@ -76,6 +82,24 @@ def change_product(request, product_id):
                                           'price': product.price, 'amount': product.amount, 'image': product.image})
 
     return render(request, 'hw_app/change_product.html', {'form': form})
+
+
+def change_client(request, client_id):
+    client = models.Client.objects.filter(pk=client_id).first()
+    form = forms.ClientForm(request.POST)
+    if request.method == 'POST' and form.is_valid():
+        client.name = form.cleaned_data['name']
+        client.email = form.cleaned_data['email']
+        client.phone = form.cleaned_data['phone']
+        client.address = form.cleaned_data['address']
+        client.reg_date = form.cleaned_data['reg_date']
+        client.save()
+        return redirect('clients')
+    else:
+        form = forms.ClientForm(initial={'name': client.name, 'email': client.email,
+                                          'phone': client.phone, 'address': client.address, 'reg_date': client.reg_date})
+
+    return render(request, 'hw_app/change_client.html', {'form': form})
 
 
 def upload_image(request):
