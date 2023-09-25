@@ -1,5 +1,9 @@
 from django.contrib import admin
-from .import models
+from . import models
+# from hw_app.models import Category
+
+# admin.site.register(Category)
+# admin.site.register(Product)
 
 
 @admin.action(description="Сбросить количество в ноль")

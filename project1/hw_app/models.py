@@ -1,6 +1,13 @@
 from django.db import models
 
 
+class Category(models.Model):
+    name = models.CharField(max_length=50, unique=True)
+
+    def __str__(self):
+        return self.name
+
+
 class Client(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
@@ -14,6 +21,7 @@ class Client(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
+    # Category = models.ForeignKey(Category, on_delete=models.CASCADE)
     description = models.TextField(default='', blank=True)
     price = models.DecimalField(max_digits=10, decimal_places=2)
     amount = models.IntegerField()
