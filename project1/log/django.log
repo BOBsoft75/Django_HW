@@ -3590,3 +3590,100 @@ INFO 2023-09-25 14:14:42,454 basehttp 8620 9040 "GET /admin/hw_app/order/484/cha
 INFO 2023-09-25 14:14:42,469 basehttp 8620 9040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-09-25 14:14:45,463 basehttp 8620 9040 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
 INFO 2023-09-25 14:14:45,475 basehttp 8620 9040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:00,307 autoreload 10576 9076 Watching for file changes with StatReloader
+INFO 2023-09-25 14:21:06,323 basehttp 10576 8032 "GET /admin/hw_app/product/ HTTP/1.1" 200 22426
+INFO 2023-09-25 14:21:06,340 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-09-25 14:21:06,396 log 10576 8032 Not Found: /favicon.ico
+WARNING 2023-09-25 14:21:06,397 basehttp 10576 8032 "GET /favicon.ico HTTP/1.1" 404 3314
+INFO 2023-09-25 14:21:07,824 basehttp 10576 8032 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 14:21:07,837 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:08,997 basehttp 10576 8032 "GET /admin/hw_app/order/485/change/ HTTP/1.1" 200 35162
+INFO 2023-09-25 14:21:09,016 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:11,878 basehttp 10576 8032 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 14:21:11,891 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:13,346 basehttp 10576 8032 "GET /admin/hw_app/client/1/change/ HTTP/1.1" 200 12741
+INFO 2023-09-25 14:21:13,363 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:14,553 basehttp 10576 8032 "GET /admin/hw_app/product/ HTTP/1.1" 200 22426
+INFO 2023-09-25 14:21:14,567 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:17,309 basehttp 10576 8032 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 14:21:17,323 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:19,117 basehttp 10576 8032 "GET /admin/hw_app/product/ HTTP/1.1" 200 22426
+INFO 2023-09-25 14:21:19,131 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:20,442 basehttp 10576 8032 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 14:21:20,457 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:21,248 basehttp 10576 8032 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 14:21:21,261 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:21:22,007 basehttp 10576 8032 "GET /admin/hw_app/product/ HTTP/1.1" 200 22426
+INFO 2023-09-25 14:21:22,023 basehttp 10576 8032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:38:41,609 autoreload 17964 1300 Watching for file changes with StatReloader
+INFO 2023-09-25 14:38:51,105 basehttp 17964 11924 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 14:38:51,196 basehttp 17964 11924 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:40:05,868 basehttp 17964 11924 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 14:40:05,882 basehttp 17964 11924 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:40:07,514 basehttp 17964 11924 "GET /admin/hw_app/product/ HTTP/1.1" 200 22426
+INFO 2023-09-25 14:40:07,531 basehttp 17964 11924 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:41:53,470 autoreload 17964 1300 J:\GeekBrains\Django2\project1\hw_app\admin.py changed, reloading.
+INFO 2023-09-25 14:41:53,926 autoreload 8700 12188 Watching for file changes with StatReloader
+INFO 2023-09-25 14:42:12,494 autoreload 8700 12188 J:\GeekBrains\Django2\project1\hw_app\admin.py changed, reloading.
+INFO 2023-09-25 14:42:12,960 autoreload 13444 16092 Watching for file changes with StatReloader
+INFO 2023-09-25 14:42:16,980 basehttp 13444 15288 "GET /admin/hw_app/product/ HTTP/1.1" 200 23183
+INFO 2023-09-25 14:42:16,993 basehttp 13444 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:42:19,672 basehttp 13444 15288 "GET /admin/hw_app/product/?added_at__gte=2023-09-25&added_at__lt=2023-09-26 HTTP/1.1" 200 14407
+INFO 2023-09-25 14:42:19,685 basehttp 13444 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:42:21,012 basehttp 13444 15288 "GET /admin/hw_app/product/?added_at__gte=2023-09-18&added_at__lt=2023-09-26 HTTP/1.1" 200 26805
+INFO 2023-09-25 14:42:21,027 basehttp 13444 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:42:22,450 basehttp 13444 15288 "GET /admin/hw_app/product/?added_at__gte=2023-09-01&added_at__lt=2023-10-01 HTTP/1.1" 200 26805
+INFO 2023-09-25 14:42:22,465 basehttp 13444 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:42:23,524 basehttp 13444 15288 "GET /admin/hw_app/product/?added_at__gte=2023-01-01&added_at__lt=2024-01-01 HTTP/1.1" 200 26805
+INFO 2023-09-25 14:42:23,542 basehttp 13444 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:42:24,592 basehttp 13444 15288 "GET /admin/hw_app/product/?added_at__gte=2023-09-01&added_at__lt=2023-10-01 HTTP/1.1" 200 26805
+INFO 2023-09-25 14:42:24,607 basehttp 13444 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:42:25,272 basehttp 13444 15288 "GET /admin/hw_app/product/?added_at__gte=2023-09-18&added_at__lt=2023-09-26 HTTP/1.1" 200 26805
+INFO 2023-09-25 14:42:25,286 basehttp 13444 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:42:26,580 basehttp 13444 15288 "GET /admin/hw_app/product/?added_at__gte=2023-09-25&added_at__lt=2023-09-26 HTTP/1.1" 200 14407
+INFO 2023-09-25 14:42:26,594 basehttp 13444 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:43:02,260 autoreload 13444 16092 J:\GeekBrains\Django2\project1\hw_app\admin.py changed, reloading.
+INFO 2023-09-25 14:43:02,711 autoreload 3092 6240 Watching for file changes with StatReloader
+INFO 2023-09-25 14:43:30,451 autoreload 3092 6240 J:\GeekBrains\Django2\project1\hw_app\admin.py changed, reloading.
+INFO 2023-09-25 14:43:30,921 autoreload 7144 7580 Watching for file changes with StatReloader
+INFO 2023-09-25 14:43:35,734 basehttp 7144 14312 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 14:43:35,750 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:43:37,098 basehttp 7144 14312 "GET /admin/hw_app/product/ HTTP/1.1" 200 25732
+INFO 2023-09-25 14:43:37,112 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:43:55,825 basehttp 7144 14312 "GET /admin/hw_app/product/? HTTP/1.1" 200 25732
+INFO 2023-09-25 14:43:55,840 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:43:57,103 basehttp 7144 14312 "GET /admin/hw_app/product/?added_at__gte=2023-09-25&added_at__lt=2023-09-26 HTTP/1.1" 200 19288
+INFO 2023-09-25 14:43:57,118 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:43:58,277 basehttp 7144 14312 "GET /admin/hw_app/product/?added_at__gte=2023-09-18&added_at__lt=2023-09-26 HTTP/1.1" 200 31686
+INFO 2023-09-25 14:43:58,291 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:43:59,916 basehttp 7144 14312 "GET /admin/hw_app/product/?added_at__gte=2023-09-01&added_at__lt=2023-10-01 HTTP/1.1" 200 31686
+INFO 2023-09-25 14:43:59,928 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:44:01,167 basehttp 7144 14312 "GET /admin/hw_app/product/?added_at__gte=2023-01-01&added_at__lt=2024-01-01 HTTP/1.1" 200 31686
+INFO 2023-09-25 14:44:01,181 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:44:01,987 basehttp 7144 14312 "GET /admin/hw_app/product/?added_at__gte=2023-09-01&added_at__lt=2023-10-01 HTTP/1.1" 200 31686
+INFO 2023-09-25 14:44:02,001 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:44:02,514 basehttp 7144 14312 "GET /admin/hw_app/product/?added_at__gte=2023-09-18&added_at__lt=2023-09-26 HTTP/1.1" 200 31686
+INFO 2023-09-25 14:44:02,527 basehttp 7144 14312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 14:44:11,028 autoreload 7144 7580 J:\GeekBrains\Django2\project1\hw_app\admin.py changed, reloading.
+INFO 2023-09-25 14:44:11,482 autoreload 628 18184 Watching for file changes with StatReloader
+INFO 2023-09-25 14:44:14,223 basehttp 628 10832 "GET /admin/hw_app/product/ HTTP/1.1" 200 23183
+INFO 2023-09-25 14:44:14,238 basehttp 628 10832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 15:06:02,778 autoreload 16756 2464 Watching for file changes with StatReloader
+INFO 2023-09-25 15:06:05,399 basehttp 16756 5716 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 200 14045
+INFO 2023-09-25 15:06:05,487 basehttp 16756 5716 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 15:06:07,339 basehttp 16756 5716 "GET /admin/hw_app/product/ HTTP/1.1" 200 23183
+INFO 2023-09-25 15:06:07,353 basehttp 16756 5716 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 15:06:08,479 basehttp 16756 5716 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 200 14045
+INFO 2023-09-25 15:06:08,493 basehttp 16756 5716 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 15:06:55,122 autoreload 16756 2464 J:\GeekBrains\Django2\project1\hw_app\admin.py changed, reloading.
+INFO 2023-09-25 15:06:55,579 autoreload 10156 1068 Watching for file changes with StatReloader
+INFO 2023-09-25 15:06:57,782 basehttp 10156 9440 "GET /admin/hw_app/product/ HTTP/1.1" 200 23183
+INFO 2023-09-25 15:06:57,797 basehttp 10156 9440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 15:06:58,856 basehttp 10156 9440 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 200 13977
+INFO 2023-09-25 15:06:58,871 basehttp 10156 9440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 15:07:17,425 basehttp 10156 9440 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 15:07:17,439 basehttp 10156 9440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 15:07:18,837 basehttp 10156 9440 "GET /admin/hw_app/product/ HTTP/1.1" 200 23183
+INFO 2023-09-25 15:07:18,851 basehttp 10156 9440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 15:07:20,917 basehttp 10156 9440 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 15:07:20,930 basehttp 10156 9440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066

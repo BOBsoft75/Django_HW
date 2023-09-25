@@ -16,6 +16,7 @@ def reset_quantity(modeladmin, request, queryset):
 class ProductAdmin(admin.ModelAdmin):
     list_display = ['name', 'price', 'amount']
     ordering = ['-amount']
+    list_filter = ['added_at']  # добавляет фильтр
     search_fields = ['description']
     search_help_text = 'Поиск по полю Описание продукта (description)'
     actions = [reset_quantity]
@@ -49,7 +50,7 @@ class ProductAdmin(admin.ModelAdmin):
         (
             'Дата добавления',
             {
-                'description': 'Рейтинг сформирован автоматически на основе оценок покупателей',
+                'description': 'Дата внесения товара в базу',
                 'fields': ['added_at'],
             }
         ),
