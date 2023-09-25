@@ -3687,3 +3687,28 @@ INFO 2023-09-25 15:07:18,837 basehttp 10156 9440 "GET /admin/hw_app/product/ HTT
 INFO 2023-09-25 15:07:18,851 basehttp 10156 9440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-09-25 15:07:20,917 basehttp 10156 9440 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
 INFO 2023-09-25 15:07:20,930 basehttp 10156 9440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 18:52:13,070 autoreload 16668 11544 Watching for file changes with StatReloader
+INFO 2023-09-25 18:52:16,670 basehttp 16668 11072 "GET / HTTP/1.1" 200 10672
+INFO 2023-09-25 18:52:16,769 basehttp 16668 8612 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-25 18:52:16,769 basehttp 16668 11072 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-25 18:52:16,777 basehttp 16668 17740 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-25 18:52:16,796 basehttp 16668 17740 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2023-09-25 18:52:16,848 log 16668 17740 Not Found: /favicon.ico
+WARNING 2023-09-25 18:52:16,849 basehttp 16668 17740 "GET /favicon.ico HTTP/1.1" 404 13235
+INFO 2023-09-25 18:53:04,098 basehttp 16668 17740 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=HistoryPanel HTTP/1.1" 200 4150
+INFO 2023-09-25 18:53:04,112 basehttp 16668 17740 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-09-25 18:53:30,577 basehttp 16668 17740 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-09-25 18:53:54,708 basehttp 16668 17740 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=SettingsPanel HTTP/1.1" 200 26761
+INFO 2023-09-25 18:54:14,223 basehttp 16668 17740 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=HeadersPanel HTTP/1.1" 200 5356
+INFO 2023-09-25 18:54:55,791 basehttp 16668 17740 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=RequestPanel HTTP/1.1" 200 2373
+INFO 2023-09-25 18:55:32,081 basehttp 16668 17740 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=SQLPanel HTTP/1.1" 200 26772
+INFO 2023-09-25 19:04:07,551 basehttp 16668 7776 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=StaticFilesPanel HTTP/1.1" 200 31183
+INFO 2023-09-25 19:04:43,098 basehttp 16668 7776 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=TemplatesPanel HTTP/1.1" 200 4135
+INFO 2023-09-25 19:05:12,944 basehttp 16668 7776 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2023-09-25 19:05:16,098 basehttp 16668 7776 "GET /__debug__/render_panel/?store_id=e869567b25e14d658fb17cdae4ced2e2&panel_id=SignalsPanel HTTP/1.1" 200 2265
+INFO 2023-09-25 19:24:54,283 basehttp 16668 17360 "GET /products/ HTTP/1.1" 200 39914
+INFO 2023-09-25 19:24:54,294 basehttp 16668 17360 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-25 19:24:54,295 basehttp 16668 17360 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-25 19:24:54,307 basehttp 16668 17360 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-25 19:24:54,337 basehttp 16668 17360 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-25 19:25:00,781 basehttp 16668 17360 "GET /__debug__/render_panel/?store_id=2a4863868654464b9e52ae985e6411ee&panel_id=ProfilingPanel HTTP/1.1" 200 44795
