@@ -14,11 +14,14 @@ class Client(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
-    description = models.TextField()
+    description = models.TextField(default='', blank=True)
     price = models.DecimalField(max_digits=10, decimal_places=2)
     amount = models.IntegerField()
     image = models.ImageField(null=True)
     added_at = models.DateField(auto_now=True)
+
+    def __str__(self):
+        return f'Product name: {self.name}, description:{self.description}, price: {self.price}, amount: {self.amount}'
 
 
 class Order(models.Model):
@@ -26,3 +29,6 @@ class Order(models.Model):
     products = models.ManyToManyField(Product)
     common_price = models.DecimalField(max_digits=10, decimal_places=2)
     date = models.DateField()
+
+    def __str__(self):
+        return f'Client: {self.client}, product:{self.products}, common_price: {self.common_price}, date: {self.date}'

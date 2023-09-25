@@ -2232,3 +2232,1042 @@ INFO 2023-09-25 12:08:16,962 basehttp 11392 10564 "GET /orders/?last_7_days=7 HT
 INFO 2023-09-25 12:08:17,574 basehttp 11392 10564 "GET /orders/?last_30_days=30 HTTP/1.1" 200 2567
 INFO 2023-09-25 12:08:18,210 basehttp 11392 10564 "GET /orders/?last_365_days=365 HTTP/1.1" 200 86627
 INFO 2023-09-25 12:08:19,539 basehttp 11392 10564 "GET / HTTP/1.1" 200 898
+INFO 2023-09-25 12:14:38,493 autoreload 736 11192 Watching for file changes with StatReloader
+INFO 2023-09-25 12:14:42,072 basehttp 736 9784 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-25 12:14:42,106 basehttp 736 16248 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:14:42,209 basehttp 736 16248 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-25 12:14:42,422 basehttp 736 16248 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-25 12:14:42,442 basehttp 736 16248 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-25 12:14:42,450 basehttp 736 15700 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-25 12:14:42,459 basehttp 736 13760 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-25 12:14:42,469 basehttp 736 2396 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-25 12:14:42,480 basehttp 736 9384 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-25 12:14:42,494 basehttp 736 17112 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+WARNING 2023-09-25 12:14:42,511 log 736 17112 Not Found: /favicon.ico
+WARNING 2023-09-25 12:14:42,511 basehttp 736 17112 "GET /favicon.ico HTTP/1.1" 404 3314
+INFO 2023-09-25 12:14:49,666 basehttp 736 17112 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-09-25 12:23:06,919 autoreload 15464 3704 Watching for file changes with StatReloader
+INFO 2023-09-25 12:23:09,567 basehttp 15464 6728 "GET / HTTP/1.1" 200 898
+INFO 2023-09-25 12:23:19,761 basehttp 15464 6728 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:23:19,786 basehttp 15464 6728 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-25 12:23:27,584 basehttp 15464 6728 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:23:27,651 basehttp 15464 6728 "GET /admin/ HTTP/1.1" 200 7420
+INFO 2023-09-25 12:23:27,708 basehttp 15464 6728 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-25 12:23:27,733 basehttp 15464 8152 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-25 12:23:27,733 basehttp 15464 6728 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-25 12:29:41,637 basehttp 15464 14296 "GET /admin/auth/user/ HTTP/1.1" 200 12459
+INFO 2023-09-25 12:29:41,660 basehttp 15464 14296 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-25 12:29:41,663 basehttp 15464 544 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-25 12:29:41,671 basehttp 15464 12120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:29:41,674 basehttp 15464 12004 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-25 12:29:41,675 basehttp 15464 8808 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-25 12:29:41,676 basehttp 15464 14296 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-25 12:29:41,683 basehttp 15464 544 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-25 12:29:41,711 basehttp 15464 12120 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-25 12:29:41,728 basehttp 15464 12004 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-25 12:29:41,745 basehttp 15464 7588 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-25 12:29:41,747 basehttp 15464 12004 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-25 12:29:41,754 basehttp 15464 12004 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-25 12:29:41,756 basehttp 15464 7588 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-25 12:29:41,774 basehttp 15464 7588 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-25 12:29:41,779 basehttp 15464 12004 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-25 12:30:21,572 basehttp 15464 12004 "GET /admin/auth/user/add/ HTTP/1.1" 200 12136
+INFO 2023-09-25 12:30:21,586 basehttp 15464 12120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:30:21,594 basehttp 15464 12004 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-25 12:30:21,595 basehttp 15464 7588 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-25 12:30:21,605 basehttp 15464 7588 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-25 12:30:21,607 basehttp 15464 12004 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-25 12:31:11,808 basehttp 15464 12004 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:31:11,881 basehttp 15464 12004 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23817
+INFO 2023-09-25 12:31:11,898 basehttp 15464 12004 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:31:11,913 basehttp 15464 7588 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-25 12:31:11,915 basehttp 15464 14296 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-25 12:31:11,918 basehttp 15464 12120 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-25 12:31:11,927 basehttp 15464 544 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-25 12:31:11,968 basehttp 15464 12004 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-09-25 12:31:11,968 basehttp 15464 544 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-25 12:31:11,968 basehttp 15464 14296 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-25 12:31:11,973 basehttp 15464 12120 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-25 12:31:11,977 basehttp 15464 7588 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-25 12:36:07,709 basehttp 15464 7588 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:36:07,722 basehttp 15464 7588 "GET /admin/auth/user/ HTTP/1.1" 200 13075
+INFO 2023-09-25 12:36:07,736 basehttp 15464 7588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:36:15,990 basehttp 15464 7588 "GET /admin/auth/group/ HTTP/1.1" 200 8789
+INFO 2023-09-25 12:36:16,002 basehttp 15464 7588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:36:18,593 basehttp 15464 7588 "GET /admin/auth/group/add/ HTTP/1.1" 200 13211
+INFO 2023-09-25 12:36:18,606 basehttp 15464 7588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:37:25,245 basehttp 15464 7588 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:37:25,257 basehttp 15464 7588 "GET /admin/auth/group/ HTTP/1.1" 200 10274
+INFO 2023-09-25 12:37:25,274 basehttp 15464 7588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:37:38,741 basehttp 15464 7588 "GET /admin/auth/user/ HTTP/1.1" 200 13167
+INFO 2023-09-25 12:37:38,753 basehttp 15464 7588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:37:41,771 basehttp 15464 7588 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23680
+INFO 2023-09-25 12:37:41,785 basehttp 15464 7588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:37:57,078 basehttp 15464 7588 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:37:57,090 basehttp 15464 7588 "GET /admin/auth/user/ HTTP/1.1" 200 13387
+INFO 2023-09-25 12:37:57,106 basehttp 15464 7588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:38:09,262 basehttp 15464 7588 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-25 12:38:11,017 basehttp 15464 7588 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:38:11,021 basehttp 15464 7588 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-25 12:38:22,074 basehttp 15464 7588 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4533
+INFO 2023-09-25 12:38:32,506 basehttp 15464 7588 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:38:32,514 basehttp 15464 7588 "GET /admin/ HTTP/1.1" 200 6242
+INFO 2023-09-25 12:39:02,714 basehttp 15464 7588 "GET /admin/hw_app/client/ HTTP/1.1" 200 13981
+INFO 2023-09-25 12:39:10,795 basehttp 15464 7588 "GET /admin/hw_app/order/ HTTP/1.1" 200 32706
+INFO 2023-09-25 12:39:13,222 basehttp 15464 7588 "GET /admin/hw_app/product/ HTTP/1.1" 200 21497
+INFO 2023-09-25 12:39:13,234 basehttp 15464 7588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:46:44,161 autoreload 15464 3704 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-25 12:46:44,628 autoreload 12248 13800 Watching for file changes with StatReloader
+INFO 2023-09-25 12:54:01,529 autoreload 12736 1480 Watching for file changes with StatReloader
+INFO 2023-09-25 12:54:16,837 basehttp 12736 4264 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-25 12:54:18,237 basehttp 12736 4264 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:54:18,247 basehttp 12736 4264 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-25 12:54:27,634 basehttp 12736 4264 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-09-25 12:54:42,260 basehttp 12736 4264 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:54:42,273 basehttp 12736 4264 "GET /admin/ HTTP/1.1" 200 8638
+INFO 2023-09-25 12:54:53,327 basehttp 12736 4264 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 12:54:53,341 basehttp 12736 4264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:54:58,859 basehttp 12736 4264 "GET /admin/hw_app/order/ HTTP/1.1" 200 46255
+INFO 2023-09-25 12:54:58,874 basehttp 12736 4264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:55:20,023 basehttp 12736 4264 "GET /admin/hw_app/client/ HTTP/1.1" 200 19120
+INFO 2023-09-25 12:55:20,038 basehttp 12736 4264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:57:37,117 basehttp 12736 4264 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-25 12:57:38,393 basehttp 12736 4264 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:57:38,397 basehttp 12736 4264 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-25 12:57:49,299 basehttp 12736 4264 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:57:49,309 basehttp 12736 4264 "GET /admin/ HTTP/1.1" 200 6242
+INFO 2023-09-25 12:57:51,236 basehttp 12736 4264 "GET /admin/hw_app/product/ HTTP/1.1" 200 21497
+INFO 2023-09-25 12:57:51,248 basehttp 12736 4264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 12:58:15,311 log 12736 4264 Internal Server Error: /admin/hw_app/product/10/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (category, quantity, date_added, rating) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (category, quantity, date_added, rating) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-25 12:58:15,318 basehttp 12736 4264 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 500 136767
+INFO 2023-09-25 12:58:25,476 basehttp 12736 4264 "GET /admin/hw_app/product/ HTTP/1.1" 200 21497
+ERROR 2023-09-25 12:58:28,129 log 12736 4264 Internal Server Error: /admin/hw_app/product/13/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (category, quantity, date_added, rating) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (category, quantity, date_added, rating) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-25 12:58:28,136 basehttp 12736 4264 "GET /admin/hw_app/product/13/change/ HTTP/1.1" 500 136767
+INFO 2023-09-25 12:58:36,481 basehttp 12736 4264 "GET /admin/hw_app/product/ HTTP/1.1" 200 21497
+INFO 2023-09-25 12:58:39,219 basehttp 12736 4264 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-25 12:58:40,396 basehttp 12736 4264 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:58:40,401 basehttp 12736 4264 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-25 12:58:49,777 basehttp 12736 4264 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 12:58:49,786 basehttp 12736 4264 "GET /admin/ HTTP/1.1" 200 8638
+INFO 2023-09-25 12:58:51,618 basehttp 12736 4264 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 12:58:51,633 basehttp 12736 4264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 12:58:52,748 log 12736 4264 Internal Server Error: /admin/hw_app/product/10/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (category, quantity, date_added, rating) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (category, quantity, date_added, rating) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-25 12:58:52,755 basehttp 12736 4264 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 500 136768
+INFO 2023-09-25 12:58:54,869 basehttp 12736 4264 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 12:58:57,791 basehttp 12736 4264 "GET /admin/hw_app/client/ HTTP/1.1" 200 19120
+INFO 2023-09-25 12:58:57,802 basehttp 12736 4264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:58:59,203 basehttp 12736 4264 "GET /admin/hw_app/client/26/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 12:58:59,218 basehttp 12736 4264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 12:59:02,952 basehttp 12736 4264 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 12:59:02,965 basehttp 12736 4264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 12:59:04,565 log 12736 4264 Internal Server Error: /admin/hw_app/product/13/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (category, quantity, date_added, rating) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (category, quantity, date_added, rating) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-25 12:59:04,572 basehttp 12736 4264 "GET /admin/hw_app/product/13/change/ HTTP/1.1" 500 136768
+INFO 2023-09-25 13:02:09,517 autoreload 12736 1480 J:\GeekBrains\Django2\project1\hw_app\admin.py changed, reloading.
+INFO 2023-09-25 13:02:09,988 autoreload 12588 3180 Watching for file changes with StatReloader
+INFO 2023-09-25 13:02:13,183 basehttp 12588 9476 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:02:15,611 basehttp 12588 9476 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:02:15,625 basehttp 12588 9476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 13:02:17,121 log 12588 9476 Internal Server Error: /admin/hw_app/product/10/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+                ^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\models.py", line 24, in __str__
+    return f'Product name: {self.name}, description:{self.description}, price: {self.phone}, amount: {self.amount}'
+                                                                                ^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'phone'
+ERROR 2023-09-25 13:02:17,127 basehttp 12588 9476 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 500 115906
+INFO 2023-09-25 13:06:00,311 autoreload 12588 3180 J:\GeekBrains\Django2\project1\hw_app\admin.py changed, reloading.
+INFO 2023-09-25 13:06:00,767 autoreload 14184 13808 Watching for file changes with StatReloader
+INFO 2023-09-25 13:06:11,347 autoreload 10888 3676 Watching for file changes with StatReloader
+INFO 2023-09-25 13:06:17,632 basehttp 10888 8836 "GET / HTTP/1.1" 200 898
+INFO 2023-09-25 13:06:45,708 basehttp 10888 8836 "GET /products/ HTTP/1.1" 200 29733
+INFO 2023-09-25 13:06:48,820 basehttp 10888 8836 "GET /change_product/1/? HTTP/1.1" 200 2706
+INFO 2023-09-25 13:06:51,212 basehttp 10888 8836 "POST /change_product/1/? HTTP/1.1" 302 0
+INFO 2023-09-25 13:06:51,221 basehttp 10888 8836 "GET /products/ HTTP/1.1" 200 29733
+INFO 2023-09-25 13:07:01,890 basehttp 10888 8836 "GET /admin/ HTTP/1.1" 200 8638
+INFO 2023-09-25 13:07:05,255 basehttp 10888 8836 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:07:05,270 basehttp 10888 8836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 13:07:08,652 log 10888 8836 Internal Server Error: /admin/hw_app/product/10/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+                ^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\models.py", line 24, in __str__
+    return f'Product name: {self.name}, description:{self.description}, price: {self.phone}, amount: {self.amount}'
+                                                                                ^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'phone'
+ERROR 2023-09-25 13:07:08,658 basehttp 10888 8836 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 500 115904
+INFO 2023-09-25 13:07:11,327 basehttp 10888 8836 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:07:12,663 basehttp 10888 8836 "GET /admin/hw_app/order/ HTTP/1.1" 200 46255
+INFO 2023-09-25 13:07:12,675 basehttp 10888 8836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 13:07:14,548 log 10888 8836 Internal Server Error: /admin/hw_app/order/487/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+                ^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\models.py", line 34, in __str__
+    return f'Client: {self.client}, product:{self.product}, common_price: {self.common_price}, date: {self.date}'
+                                             ^^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'product'
+ERROR 2023-09-25 13:07:14,553 basehttp 10888 8836 "GET /admin/hw_app/order/487/change/ HTTP/1.1" 500 113543
+INFO 2023-09-25 13:07:16,736 basehttp 10888 8836 "GET /admin/hw_app/order/ HTTP/1.1" 200 46255
+INFO 2023-09-25 13:07:17,913 basehttp 10888 8836 "GET /admin/hw_app/client/ HTTP/1.1" 200 19120
+INFO 2023-09-25 13:07:17,926 basehttp 10888 8836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:07:20,211 basehttp 10888 8836 "GET /admin/hw_app/client/29/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 13:07:20,226 basehttp 10888 8836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:07:26,685 basehttp 10888 8836 "POST /admin/hw_app/client/29/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:07:26,705 basehttp 10888 8836 "GET /admin/hw_app/client/ HTTP/1.1" 200 19430
+INFO 2023-09-25 13:07:26,720 basehttp 10888 8836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:07:33,004 basehttp 10888 8836 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:07:33,019 basehttp 10888 8836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 13:07:35,809 log 10888 8836 Internal Server Error: /admin/hw_app/product/9/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+                ^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\models.py", line 24, in __str__
+    return f'Product name: {self.name}, description:{self.description}, price: {self.phone}, amount: {self.amount}'
+                                                                                ^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'phone'
+ERROR 2023-09-25 13:07:35,814 basehttp 10888 8836 "GET /admin/hw_app/product/9/change/ HTTP/1.1" 500 115876
+INFO 2023-09-25 13:07:45,423 basehttp 10888 8836 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:08:20,164 autoreload 10888 3676 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-25 13:08:20,621 autoreload 13556 11696 Watching for file changes with StatReloader
+INFO 2023-09-25 13:08:22,816 basehttp 13556 16140 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:08:22,828 basehttp 13556 16140 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:08:24,215 basehttp 13556 16140 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 200 14140
+INFO 2023-09-25 13:08:24,236 basehttp 13556 14020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:08:24,303 basehttp 13556 16140 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-25 13:08:28,962 basehttp 13556 16140 "POST /admin/hw_app/product/10/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:08:28,988 basehttp 13556 16140 "GET /admin/hw_app/product/ HTTP/1.1" 200 23156
+INFO 2023-09-25 13:08:29,002 basehttp 13556 16140 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:08:31,825 basehttp 13556 16140 "GET /admin/hw_app/order/ HTTP/1.1" 200 46255
+INFO 2023-09-25 13:08:31,839 basehttp 13556 16140 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 13:08:34,089 log 13556 16140 Internal Server Error: /admin/hw_app/order/487/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+                ^^^^^^^^
+  File "J:\GeekBrains\Django2\project1\hw_app\models.py", line 34, in __str__
+    return f'Client: {self.client}, product:{self.product}, common_price: {self.common_price}, date: {self.date}'
+                                             ^^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'product'
+ERROR 2023-09-25 13:08:34,096 basehttp 13556 16140 "GET /admin/hw_app/order/487/change/ HTTP/1.1" 500 113543
+INFO 2023-09-25 13:08:44,630 basehttp 13556 16140 "GET /admin/hw_app/order/ HTTP/1.1" 200 46255
+INFO 2023-09-25 13:09:04,801 autoreload 13556 11696 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-25 13:09:05,266 autoreload 14260 12256 Watching for file changes with StatReloader
+INFO 2023-09-25 13:09:08,141 basehttp 14260 17224 "GET /admin/hw_app/order/ HTTP/1.1" 200 46255
+INFO 2023-09-25 13:09:08,156 basehttp 14260 17224 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:09:09,575 basehttp 14260 17224 "GET /admin/hw_app/order/487/change/ HTTP/1.1" 200 34892
+INFO 2023-09-25 13:09:09,593 basehttp 14260 17224 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:09:09,644 basehttp 14260 17224 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-25 13:09:14,880 basehttp 14260 17224 "POST /admin/hw_app/order/487/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:09:14,920 basehttp 14260 17224 "GET /admin/hw_app/order/ HTTP/1.1" 200 46644
+INFO 2023-09-25 13:09:14,933 basehttp 14260 17224 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:10:51,891 basehttp 14260 10360 "GET /admin/hw_app/client/ HTTP/1.1" 200 19120
+INFO 2023-09-25 13:10:51,905 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:11:06,302 basehttp 14260 10360 "GET /admin/hw_app/client/26/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 13:11:06,317 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:11:08,008 basehttp 14260 10360 "GET /admin/hw_app/client/26/delete/ HTTP/1.1" 200 18284
+INFO 2023-09-25 13:11:08,035 basehttp 14260 10360 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-09-25 13:11:29,368 basehttp 14260 10360 "GET /admin/hw_app/client/26/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 13:11:33,168 basehttp 14260 10360 "GET /admin/hw_app/client/ HTTP/1.1" 200 19120
+INFO 2023-09-25 13:11:33,181 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:11:35,457 basehttp 14260 10360 "GET /admin/hw_app/client/26/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 13:11:35,472 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:12:12,286 basehttp 14260 10360 "POST /admin/hw_app/client/26/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:12:12,302 basehttp 14260 10360 "GET /admin/hw_app/client/ HTTP/1.1" 200 19500
+INFO 2023-09-25 13:12:12,318 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:12:20,288 basehttp 14260 10360 "GET /admin/hw_app/client/27/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 13:12:20,302 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:12:53,212 basehttp 14260 10360 "POST /admin/hw_app/client/27/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:12:53,230 basehttp 14260 10360 "GET /admin/hw_app/client/ HTTP/1.1" 200 19553
+INFO 2023-09-25 13:12:53,243 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:12:57,270 basehttp 14260 10360 "GET /admin/hw_app/client/28/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 13:12:57,285 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:13:33,546 basehttp 14260 10360 "POST /admin/hw_app/client/28/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:13:33,563 basehttp 14260 10360 "GET /admin/hw_app/client/ HTTP/1.1" 200 19591
+INFO 2023-09-25 13:13:33,574 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:13:35,450 basehttp 14260 10360 "GET /admin/hw_app/client/29/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 13:13:35,465 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:14:24,307 basehttp 14260 10360 "POST /admin/hw_app/client/29/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:14:24,323 basehttp 14260 10360 "GET /admin/hw_app/client/ HTTP/1.1" 200 19624
+INFO 2023-09-25 13:14:24,338 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:14:25,825 basehttp 14260 10360 "GET /admin/hw_app/client/30/change/ HTTP/1.1" 200 12281
+INFO 2023-09-25 13:14:25,841 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:14:56,066 basehttp 14260 10360 "POST /admin/hw_app/client/30/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:14:56,083 basehttp 14260 10360 "GET /admin/hw_app/client/ HTTP/1.1" 200 19683
+INFO 2023-09-25 13:14:56,097 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:15:07,099 basehttp 14260 10360 "GET /admin/hw_app/client/8/change/ HTTP/1.1" 200 12768
+INFO 2023-09-25 13:15:07,114 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:15:13,919 basehttp 14260 10360 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 13:15:13,933 basehttp 14260 10360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:16:47,690 autoreload 14260 12256 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-25 13:16:48,136 autoreload 17700 3084 Watching for file changes with StatReloader
+INFO 2023-09-25 13:22:23,977 autoreload 17700 3084 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-25 13:22:24,419 autoreload 12252 6228 Watching for file changes with StatReloader
+INFO 2023-09-25 13:28:18,252 basehttp 12252 9388 "GET /admin/hw_app/client/1/change/ HTTP/1.1" 200 12741
+INFO 2023-09-25 13:28:18,267 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:28:20,117 basehttp 12252 9388 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:28:20,130 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 13:28:21,126 log 12252 9388 Internal Server Error: /admin/hw_app/order/486/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1819, in _changeform_view
+    form = ModelForm(instance=obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 357, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 115, in model_to_dict
+    data[f.name] = f.value_from_object(instance)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\fields\related.py", line 1953, in value_from_object
+    return [] if obj.pk is None else list(getattr(obj, self.attname).all())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 121, in __iter__
+    for row in compiler.results_iter(results):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 314, in convert_datetimefield_value
+    value = parse_datetime(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-25 13:28:21,135 basehttp 12252 9388 "GET /admin/hw_app/order/486/change/ HTTP/1.1" 500 154318
+INFO 2023-09-25 13:28:38,881 basehttp 12252 9388 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+ERROR 2023-09-25 13:28:41,490 log 12252 9388 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 121, in __iter__
+    for row in compiler.results_iter(results):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 314, in convert_datetimefield_value
+    value = parse_datetime(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-25 13:28:41,497 basehttp 12252 9388 "GET /admin/hw_app/product/ HTTP/1.1" 500 137280
+INFO 2023-09-25 13:30:28,429 basehttp 12252 9388 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+ERROR 2023-09-25 13:30:30,282 log 12252 9388 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 121, in __iter__
+    for row in compiler.results_iter(results):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 314, in convert_datetimefield_value
+    value = parse_datetime(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-25 13:30:30,288 basehttp 12252 9388 "GET /admin/hw_app/product/ HTTP/1.1" 500 137280
+INFO 2023-09-25 13:30:37,470 basehttp 12252 9388 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:30:39,360 basehttp 12252 9388 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 13:30:39,374 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:30:42,220 basehttp 12252 9388 "GET /admin/hw_app/client/11/change/ HTTP/1.1" 200 12755
+INFO 2023-09-25 13:30:42,235 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:30:44,805 basehttp 12252 9388 "POST /admin/hw_app/client/11/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:30:44,822 basehttp 12252 9388 "GET /admin/hw_app/client/ HTTP/1.1" 200 19760
+INFO 2023-09-25 13:30:44,836 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:30:46,610 basehttp 12252 9388 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 13:30:46,621 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:30:48,027 basehttp 12252 9388 "GET /admin/hw_app/client/14/change/ HTTP/1.1" 200 12714
+INFO 2023-09-25 13:30:48,045 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:30:49,129 basehttp 12252 9388 "POST /admin/hw_app/client/14/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 13:30:49,147 basehttp 12252 9388 "GET /admin/hw_app/client/ HTTP/1.1" 200 19745
+INFO 2023-09-25 13:30:49,161 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 13:30:50,824 log 12252 9388 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 121, in __iter__
+    for row in compiler.results_iter(results):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 314, in convert_datetimefield_value
+    value = parse_datetime(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-25 13:30:50,831 basehttp 12252 9388 "GET /admin/hw_app/product/ HTTP/1.1" 500 137281
+INFO 2023-09-25 13:30:55,156 basehttp 12252 9388 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 13:30:56,540 basehttp 12252 9388 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:30:56,553 basehttp 12252 9388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 13:30:57,972 log 12252 9388 Internal Server Error: /admin/hw_app/order/485/change/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 1819, in _changeform_view
+    form = ModelForm(instance=obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 357, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\forms\models.py", line 115, in model_to_dict
+    data[f.name] = f.value_from_object(instance)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\fields\related.py", line 1953, in value_from_object
+    return [] if obj.pk is None else list(getattr(obj, self.attname).all())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 121, in __iter__
+    for row in compiler.results_iter(results):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 314, in convert_datetimefield_value
+    value = parse_datetime(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-25 13:30:57,979 basehttp 12252 9388 "GET /admin/hw_app/order/485/change/ HTTP/1.1" 500 154313
+INFO 2023-09-25 13:31:04,909 basehttp 12252 9388 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+ERROR 2023-09-25 13:31:06,275 log 12252 9388 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 121, in __iter__
+    for row in compiler.results_iter(results):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 314, in convert_datetimefield_value
+    value = parse_datetime(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-25 13:31:06,281 basehttp 12252 9388 "GET /admin/hw_app/product/ HTTP/1.1" 500 137280
+INFO 2023-09-25 13:31:35,285 basehttp 12252 9388 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:31:36,239 autoreload 12252 6228 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-25 13:31:36,687 autoreload 12540 288 Watching for file changes with StatReloader
+ERROR 2023-09-25 13:31:37,698 log 12540 5984 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\query.py", line 121, in __iter__
+    for row in compiler.results_iter(results):
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 314, in convert_datetimefield_value
+    value = parse_datetime(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "J:\GeekBrains\Django2\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-25 13:31:37,705 basehttp 12540 5984 "GET /admin/hw_app/product/ HTTP/1.1" 500 137280
+INFO 2023-09-25 13:31:41,270 basehttp 12540 5984 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:31:54,388 autoreload 12540 288 J:\GeekBrains\Django2\project1\hw_app\models.py changed, reloading.
+INFO 2023-09-25 13:31:54,811 autoreload 6864 11776 Watching for file changes with StatReloader
+INFO 2023-09-25 13:31:59,252 basehttp 6864 10044 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 13:31:59,266 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:00,524 basehttp 6864 10044 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:32:00,539 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:01,718 basehttp 6864 10044 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:32:01,731 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:02,914 basehttp 6864 10044 "GET /admin/hw_app/product/10/change/ HTTP/1.1" 200 14117
+INFO 2023-09-25 13:32:02,929 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:23,387 basehttp 6864 10044 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:32:23,399 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:26,777 basehttp 6864 10044 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:32:26,792 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:41,127 basehttp 6864 10044 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:32:41,142 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:42,815 basehttp 6864 10044 "GET /admin/hw_app/order/487/change/ HTTP/1.1" 200 35228
+INFO 2023-09-25 13:32:42,831 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:44,603 basehttp 6864 10044 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 13:32:44,616 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:46,113 basehttp 6864 10044 "GET /admin/hw_app/product/ HTTP/1.1" 200 22489
+INFO 2023-09-25 13:32:46,130 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:57,604 basehttp 6864 10044 "GET /admin/hw_app/order/ HTTP/1.1" 200 50355
+INFO 2023-09-25 13:32:57,617 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 13:32:58,347 basehttp 6864 10044 "GET /admin/hw_app/client/ HTTP/1.1" 200 19325
+INFO 2023-09-25 13:32:58,362 basehttp 6864 10044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066

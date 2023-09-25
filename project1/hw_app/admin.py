@@ -33,20 +33,20 @@ class ProductAdmin(admin.ModelAdmin):
                 # при развороте выдает описание
                 'description': 'Категория товара и его подробное описание',
                 # те поля которые мы спрятали
-                'fields': ['category', 'description'],
+                'fields': ['description'],
             },
         ),
         (
             'Бухгалтерия',
             {
-                'fields': ['price', 'quantity'],
+                'fields': ['price', 'amount'],
             }
         ),
         (
-            'Рейтинг и прочее',
+            'Дата добавления',
             {
                 'description': 'Рейтинг сформирован автоматически на основе оценок покупателей',
-                'fields': ['rating', 'date_added'],
+                'fields': ['added_at'],
             }
         ),
     ]
